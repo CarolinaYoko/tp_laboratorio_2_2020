@@ -1,0 +1,7 @@
+C:\Users\Carolina\source\repos\Entidades\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Carolina\source\repos\Entidades\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Carolina\source\repos\Entidades\Entidades\bin\Debug\Entidades.exe.config
+C:\Users\Carolina\source\repos\Entidades\Entidades\bin\Debug\Entidades.exe
+C:\Users\Carolina\source\repos\Entidades\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Carolina\source\repos\Entidades\Entidades\obj\Debug\Entidades.exe
+C:\Users\Carolina\source\repos\Entidades\Entidades\obj\Debug\Entidades.pdb

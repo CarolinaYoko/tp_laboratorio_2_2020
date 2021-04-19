@@ -54,7 +54,7 @@ namespace Entidades
         {
             int resultado = 0;
             string retorno;
-            int bit;
+            int num;
             char c;
 
             if (Numero.EsBinario(binario))
@@ -63,9 +63,9 @@ namespace Entidades
                 {
                     c = binario[i];
 
-                    bit = (int)Char.GetNumericValue(binario[i]);
+                    num = (int)Char.GetNumericValue(binario[i]);
                     
-                    resultado += bit * (int)(Math.Pow(2, (binario.Length - 1) - i));
+                    resultado += num * (int)(Math.Pow(2, (binario.Length - 1) - i));
 
                 }
                 
@@ -82,16 +82,31 @@ namespace Entidades
 
         public static string DecimalBinario(double numero)
         {
-
+            string numBinarioStr = "";
             string retorno = "";
             int div = (int) Math.Abs(numero);
-            
+            double numeroBinario;
+                        
             while (div >= 2)
             {
-                retorno = (div % 2).ToString() + retorno;
+                numBinarioStr = (div % 2).ToString() + numBinarioStr;
                 div = (div - div % 2) / 2;
             }
-            retorno = div + retorno;
+            numBinarioStr = div + numBinarioStr;
+
+            if (double.TryParse(numBinarioStr, out numeroBinario))
+            {
+
+                if (numeroBinario < 0)
+                {
+                    retorno = "Valor inválido";
+                }
+                else
+                {
+                    retorno = numBinarioStr;
+                }
+            }
+
             return retorno;
 
         }
@@ -117,7 +132,7 @@ namespace Entidades
         private static bool EsBinario(string binario)
         {
             bool retorno = true;
-
+                        
             foreach (char item in binario)
             {
                 if (item != '0' && item != '1')
@@ -126,7 +141,7 @@ namespace Entidades
                     break;
                 }
 
-            }
+            }            
 
             return retorno;
         }

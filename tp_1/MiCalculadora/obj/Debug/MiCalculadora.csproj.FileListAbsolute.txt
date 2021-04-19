@@ -12,3 +12,17 @@ C:\Users\Carolina\source\repos\Entidades\MiCalculadora\bin\Debug\Entidades.exe
 C:\Users\Carolina\source\repos\Entidades\MiCalculadora\bin\Debug\Entidades.pdb
 C:\Users\Carolina\source\repos\Entidades\MiCalculadora\bin\Debug\Entidades.exe.config
 C:\Users\Carolina\source\repos\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Users\Carolina\Desktop\tp_laboratorio_2\tp_1\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\Carolina\Desktop\tp_laboratorio_2\tp_1\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\Carolina\Desktop\tp_laboratorio_2\tp_1\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\Carolina\Desktop\tp_laboratorio_2\tp_1\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\Carolina\Desktop\tp_laboratorio_2\tp_1\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\Users\Carolina\Desktop\tp_laboratorio_2\tp_1\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
+C:\Users\Carolina\Desktop\tp_laboratorio_2\tp_1\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\Carolina\Desktop\tp_laboratorio_2\tp_1\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\Carolina\Desktop\tp_laboratorio_2\tp_1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\Carolina\Desktop\tp_laboratorio_2\tp_1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Users\Carolina\Desktop\tp_laboratorio_2\tp_1\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\Carolina\Desktop\tp_laboratorio_2\tp_1\MiCalculadora\obj\Debug\MiCalculadora.pdb
+C:\Users\Carolina\Desktop\tp_laboratorio_2\tp_1\MiCalculadora\bin\Debug\Entidades.dll
+C:\Users\Carolina\Desktop\tp_laboratorio_2\tp_1\MiCalculadora\bin\Debug\Entidades.dll.config

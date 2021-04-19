@@ -11,10 +11,8 @@ namespace Entidades
         private static string ValidarOperador(char operador)
         {
             string resultado = "+";
-
-            if (operador.Equals('+'))
-                resultado = "+";
-            else if (operador.Equals('-'))
+                        
+            if (operador.Equals('-'))
                 resultado = "-";
             else if (operador.Equals('/'))
                 resultado = "/";

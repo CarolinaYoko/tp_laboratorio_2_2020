@@ -92,20 +92,25 @@ namespace MiCalculadora
             // 
             // txtNumero1
             // 
+            this.txtNumero1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumero1.Location = new System.Drawing.Point(12, 70);
             this.txtNumero1.Name = "txtNumero1";
-            this.txtNumero1.Size = new System.Drawing.Size(102, 20);
+            this.txtNumero1.Size = new System.Drawing.Size(102, 21);
             this.txtNumero1.TabIndex = 0;
+            this.txtNumero1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // txtNumero2
             // 
+            this.txtNumero2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumero2.Location = new System.Drawing.Point(250, 71);
             this.txtNumero2.Name = "txtNumero2";
-            this.txtNumero2.Size = new System.Drawing.Size(112, 20);
+            this.txtNumero2.Size = new System.Drawing.Size(112, 21);
             this.txtNumero2.TabIndex = 3;
+            this.txtNumero2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // cmbOperador
             // 
+            this.cmbOperador.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbOperador.FormattingEnabled = true;
             this.cmbOperador.Items.AddRange(new object[] {
             "+",
@@ -114,16 +119,18 @@ namespace MiCalculadora
             "/"});
             this.cmbOperador.Location = new System.Drawing.Point(128, 69);
             this.cmbOperador.Name = "cmbOperador";
-            this.cmbOperador.Size = new System.Drawing.Size(103, 21);
+            this.cmbOperador.Size = new System.Drawing.Size(103, 23);
             this.cmbOperador.TabIndex = 1;
             // 
             // lblResultado
             // 
-            this.lblResultado.AutoSize = true;
-            this.lblResultado.Location = new System.Drawing.Point(318, 32);
+            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblResultado.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.lblResultado.Location = new System.Drawing.Point(12, 27);
             this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(0, 13);
+            this.lblResultado.Size = new System.Drawing.Size(351, 25);
             this.lblResultado.TabIndex = 8;
+            this.lblResultado.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // FormCalculadora
             // 

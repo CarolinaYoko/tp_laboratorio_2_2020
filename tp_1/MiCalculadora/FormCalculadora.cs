@@ -55,14 +55,10 @@ namespace MiCalculadora
         {
             Numero n1 = new Numero(numero1);
             Numero n2 = new Numero(numero2);
-            double resultado;
+            
+            return Calculadora.Operar(n1, n2, operador);
 
-            resultado = Calculadora.Operar(n1, n2, operador);
-
-            return resultado;
-
-        }    
-
+        }
 
        
     }

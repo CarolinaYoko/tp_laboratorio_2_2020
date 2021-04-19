@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entidades
+namespace EntidadesB
 {
     public static class Calculadora
     {
@@ -16,7 +16,7 @@ namespace Entidades
         private static string ValidarOperador(char operador)
         {
             string resultado = "+";
-                        
+
             if (operador.Equals('-'))
                 resultado = "-";
             else if (operador.Equals('/'))
@@ -62,6 +62,5 @@ namespace Entidades
             return resultado;
 
         }
-
     }
 }

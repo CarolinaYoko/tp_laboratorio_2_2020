@@ -1,0 +1,5 @@
+C:\Users\Carolina\Desktop\tp_laboratorio_2\tp_1\EntidadesB\bin\Debug\EntidadesB.dll
+C:\Users\Carolina\Desktop\tp_laboratorio_2\tp_1\EntidadesB\bin\Debug\EntidadesB.pdb
+C:\Users\Carolina\Desktop\tp_laboratorio_2\tp_1\EntidadesB\obj\Debug\EntidadesB.csproj.CoreCompileInputs.cache
+C:\Users\Carolina\Desktop\tp_laboratorio_2\tp_1\EntidadesB\obj\Debug\EntidadesB.dll
+C:\Users\Carolina\Desktop\tp_laboratorio_2\tp_1\EntidadesB\obj\Debug\EntidadesB.pdb

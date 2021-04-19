@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entidades
+namespace EntidadesB
 {
-    public class Numero
-    {
+    public class Numero 
+    { 
         private double numero;
 
 
@@ -24,12 +24,12 @@ namespace Entidades
             this.numero = 0;
         }
 
-        public Numero(double numero): this()
+        public Numero(double numero) : this()
         {
             this.numero = numero;
         }
 
-       
+
         public Numero(string strNumero)
         {
             double numParse;
@@ -75,18 +75,18 @@ namespace Entidades
                     c = binario[i];
 
                     num = (int)Char.GetNumericValue(binario[i]);
-                    
+
                     resultado += num * (int)(Math.Pow(2, (binario.Length - 1) - i));
 
                 }
-                
+
                 retorno = resultado.ToString();
             }
             else
             {
                 retorno = "Valor inválido";
             }
-                       
+
             return retorno;
 
         }
@@ -100,9 +100,9 @@ namespace Entidades
         {
             string numBinarioStr = "";
             string retorno = "";
-            int div = (int) Math.Abs(numero);
+            int div = (int)Math.Abs(numero);
             double numeroBinario;
-                        
+
             while (div >= 2)
             {
                 numBinarioStr = (div % 2).ToString() + numBinarioStr;
@@ -138,7 +138,7 @@ namespace Entidades
             string retorno = "";
             double auxiliar;
 
-            if(double.TryParse(numero, out auxiliar))
+            if (double.TryParse(numero, out auxiliar))
             {
                 retorno = Numero.DecimalBinario(auxiliar);
             }
@@ -159,7 +159,7 @@ namespace Entidades
         private static bool EsBinario(string binario)
         {
             bool retorno = true;
-                        
+
             foreach (char item in binario)
             {
                 if (item != '0' && item != '1')
@@ -168,7 +168,7 @@ namespace Entidades
                     break;
                 }
 
-            }            
+            }
 
             return retorno;
         }
@@ -236,5 +236,4 @@ namespace Entidades
             return resultado;
         }
     }
-
 }
